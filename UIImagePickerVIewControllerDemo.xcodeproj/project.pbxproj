@@ -15,6 +15,24 @@
 		025EA5EE1D42A0A7005D06C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025EA5EC1D42A0A7005D06C1 /* LaunchScreen.storyboard */; };
 		025EA5F91D42A0A8005D06C1 /* UIImagePickerVIewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025EA5F81D42A0A7005D06C1 /* UIImagePickerVIewControllerDemoTests.m */; };
 		025EA6041D42A0A8005D06C1 /* UIImagePickerVIewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025EA6031D42A0A8005D06C1 /* UIImagePickerVIewControllerDemoUITests.m */; };
+		0285F5721D43955400991FF7 /* DetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F55A1D43955400991FF7 /* DetailImageViewController.m */; };
+		0285F5741D43955400991FF7 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F55D1D43955400991FF7 /* MyImageView.m */; };
+		0285F5751D43955400991FF7 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F55F1D43955400991FF7 /* MyViewController.m */; };
+		0285F5771D43955400991FF7 /* UIView+ZRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5621D43955400991FF7 /* UIView+ZRCategory.m */; };
+		0285F5781D43955400991FF7 /* AssetsLibraryD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5651D43955400991FF7 /* AssetsLibraryD.m */; };
+		0285F5791D43955400991FF7 /* HCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5671D43955400991FF7 /* HCollectionViewCell.m */; };
+		0285F57A1D43955400991FF7 /* HySideScrollingImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5691D43955400991FF7 /* HySideScrollingImagePicker.m */; };
+		0285F57B1D43955400991FF7 /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0285F56A1D43955400991FF7 /* ImageResources.bundle */; };
+		0285F57C1D43955400991FF7 /* ParallAxTableViewCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F56C1D43955400991FF7 /* ParallAxTableViewCells.m */; };
+		0285F57E1D43955400991FF7 /* SideScrollingCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F56F1D43955400991FF7 /* SideScrollingCheckCell.m */; };
+		0285F57F1D43955400991FF7 /* SideScrollingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5711D43955400991FF7 /* SideScrollingLayout.m */; };
+		0285F5811D4399E600991FF7 /* searchList_btn_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 0285F5801D4399E600991FF7 /* searchList_btn_delete.png */; };
+		0285F5841D439C3200991FF7 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5831D439C3200991FF7 /* ImageScrollView.m */; };
+		0285F5851D439C3200991FF7 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5831D439C3200991FF7 /* ImageScrollView.m */; };
+		0285F5861D439C3200991FF7 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285F5831D439C3200991FF7 /* ImageScrollView.m */; };
+		0285F58C1D439FAA00991FF7 /* btn_vdo_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0285F58B1D439FAA00991FF7 /* btn_vdo_back.png */; };
+		0285F58D1D439FAA00991FF7 /* btn_vdo_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0285F58B1D439FAA00991FF7 /* btn_vdo_back.png */; };
+		0285F58E1D439FAA00991FF7 /* btn_vdo_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0285F58B1D439FAA00991FF7 /* btn_vdo_back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,31 @@
 		025EA5FF1D42A0A8005D06C1 /* UIImagePickerVIewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerVIewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025EA6031D42A0A8005D06C1 /* UIImagePickerVIewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagePickerVIewControllerDemoUITests.m; sourceTree = "<group>"; };
 		025EA6051D42A0A8005D06C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0285F5591D43955400991FF7 /* DetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailImageViewController.h; sourceTree = "<group>"; };
+		0285F55A1D43955400991FF7 /* DetailImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailImageViewController.m; sourceTree = "<group>"; };
+		0285F55C1D43955400991FF7 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		0285F55D1D43955400991FF7 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		0285F55E1D43955400991FF7 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		0285F55F1D43955400991FF7 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		0285F5611D43955400991FF7 /* UIView+ZRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZRCategory.h"; sourceTree = "<group>"; };
+		0285F5621D43955400991FF7 /* UIView+ZRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZRCategory.m"; sourceTree = "<group>"; };
+		0285F5641D43955400991FF7 /* AssetsLibraryD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsLibraryD.h; sourceTree = "<group>"; };
+		0285F5651D43955400991FF7 /* AssetsLibraryD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsLibraryD.m; sourceTree = "<group>"; };
+		0285F5661D43955400991FF7 /* HCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCollectionViewCell.h; sourceTree = "<group>"; };
+		0285F5671D43955400991FF7 /* HCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCollectionViewCell.m; sourceTree = "<group>"; };
+		0285F5681D43955400991FF7 /* HySideScrollingImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySideScrollingImagePicker.h; sourceTree = "<group>"; };
+		0285F5691D43955400991FF7 /* HySideScrollingImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySideScrollingImagePicker.m; sourceTree = "<group>"; };
+		0285F56A1D43955400991FF7 /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		0285F56B1D43955400991FF7 /* ParallAxTableViewCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallAxTableViewCells.h; sourceTree = "<group>"; };
+		0285F56C1D43955400991FF7 /* ParallAxTableViewCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallAxTableViewCells.m; sourceTree = "<group>"; };
+		0285F56E1D43955400991FF7 /* SideScrollingCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollingCheckCell.h; sourceTree = "<group>"; };
+		0285F56F1D43955400991FF7 /* SideScrollingCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollingCheckCell.m; sourceTree = "<group>"; };
+		0285F5701D43955400991FF7 /* SideScrollingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollingLayout.h; sourceTree = "<group>"; };
+		0285F5711D43955400991FF7 /* SideScrollingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollingLayout.m; sourceTree = "<group>"; };
+		0285F5801D4399E600991FF7 /* searchList_btn_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = searchList_btn_delete.png; path = ../searchList_btn_delete.png; sourceTree = "<group>"; };
+		0285F5821D439C3200991FF7 /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		0285F5831D439C3200991FF7 /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		0285F58B1D439FAA00991FF7 /* btn_vdo_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_vdo_back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +144,7 @@
 		025EA5DD1D42A0A7005D06C1 /* UIImagePickerVIewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0285F5571D43955400991FF7 /* 自定义相册选择 */,
 				025EA5E11D42A0A7005D06C1 /* AppDelegate.h */,
 				025EA5E21D42A0A7005D06C1 /* AppDelegate.m */,
 				025EA5E41D42A0A7005D06C1 /* ViewController.h */,
@@ -138,6 +182,54 @@
 				025EA6051D42A0A8005D06C1 /* Info.plist */,
 			);
 			path = UIImagePickerVIewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		0285F5571D43955400991FF7 /* 自定义相册选择 */ = {
+			isa = PBXGroup;
+			children = (
+				0285F5581D43955400991FF7 /* customImageShow */,
+				0285F5631D43955400991FF7 /* selectImageView */,
+			);
+			path = "自定义相册选择";
+			sourceTree = SOURCE_ROOT;
+		};
+		0285F5581D43955400991FF7 /* customImageShow */ = {
+			isa = PBXGroup;
+			children = (
+				0285F5591D43955400991FF7 /* DetailImageViewController.h */,
+				0285F55A1D43955400991FF7 /* DetailImageViewController.m */,
+				0285F55C1D43955400991FF7 /* MyImageView.h */,
+				0285F55D1D43955400991FF7 /* MyImageView.m */,
+				0285F55E1D43955400991FF7 /* MyViewController.h */,
+				0285F55F1D43955400991FF7 /* MyViewController.m */,
+				0285F5611D43955400991FF7 /* UIView+ZRCategory.h */,
+				0285F5621D43955400991FF7 /* UIView+ZRCategory.m */,
+				0285F5821D439C3200991FF7 /* ImageScrollView.h */,
+				0285F5831D439C3200991FF7 /* ImageScrollView.m */,
+				0285F58B1D439FAA00991FF7 /* btn_vdo_back.png */,
+			);
+			path = customImageShow;
+			sourceTree = "<group>";
+		};
+		0285F5631D43955400991FF7 /* selectImageView */ = {
+			isa = PBXGroup;
+			children = (
+				0285F5801D4399E600991FF7 /* searchList_btn_delete.png */,
+				0285F5641D43955400991FF7 /* AssetsLibraryD.h */,
+				0285F5651D43955400991FF7 /* AssetsLibraryD.m */,
+				0285F5661D43955400991FF7 /* HCollectionViewCell.h */,
+				0285F5671D43955400991FF7 /* HCollectionViewCell.m */,
+				0285F5681D43955400991FF7 /* HySideScrollingImagePicker.h */,
+				0285F5691D43955400991FF7 /* HySideScrollingImagePicker.m */,
+				0285F56A1D43955400991FF7 /* ImageResources.bundle */,
+				0285F56B1D43955400991FF7 /* ParallAxTableViewCells.h */,
+				0285F56C1D43955400991FF7 /* ParallAxTableViewCells.m */,
+				0285F56E1D43955400991FF7 /* SideScrollingCheckCell.h */,
+				0285F5701D43955400991FF7 /* SideScrollingLayout.h */,
+				0285F56F1D43955400991FF7 /* SideScrollingCheckCell.m */,
+				0285F5711D43955400991FF7 /* SideScrollingLayout.m */,
+			);
+			path = selectImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +335,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0285F5811D4399E600991FF7 /* searchList_btn_delete.png in Resources */,
 				025EA5EE1D42A0A7005D06C1 /* LaunchScreen.storyboard in Resources */,
 				025EA5EB1D42A0A7005D06C1 /* Assets.xcassets in Resources */,
+				0285F58C1D439FAA00991FF7 /* btn_vdo_back.png in Resources */,
 				025EA5E91D42A0A7005D06C1 /* Main.storyboard in Resources */,
+				0285F57B1D43955400991FF7 /* ImageResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0285F58D1D439FAA00991FF7 /* btn_vdo_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0285F58E1D439FAA00991FF7 /* btn_vdo_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +367,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0285F5751D43955400991FF7 /* MyViewController.m in Sources */,
 				025EA5E61D42A0A7005D06C1 /* ViewController.m in Sources */,
+				0285F5741D43955400991FF7 /* MyImageView.m in Sources */,
+				0285F57E1D43955400991FF7 /* SideScrollingCheckCell.m in Sources */,
+				0285F57A1D43955400991FF7 /* HySideScrollingImagePicker.m in Sources */,
 				025EA5E31D42A0A7005D06C1 /* AppDelegate.m in Sources */,
+				0285F5771D43955400991FF7 /* UIView+ZRCategory.m in Sources */,
+				0285F5841D439C3200991FF7 /* ImageScrollView.m in Sources */,
+				0285F57C1D43955400991FF7 /* ParallAxTableViewCells.m in Sources */,
 				025EA5E01D42A0A7005D06C1 /* main.m in Sources */,
+				0285F57F1D43955400991FF7 /* SideScrollingLayout.m in Sources */,
+				0285F5721D43955400991FF7 /* DetailImageViewController.m in Sources */,
+				0285F5791D43955400991FF7 /* HCollectionViewCell.m in Sources */,
+				0285F5781D43955400991FF7 /* AssetsLibraryD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				025EA5F91D42A0A8005D06C1 /* UIImagePickerVIewControllerDemoTests.m in Sources */,
+				0285F5851D439C3200991FF7 /* ImageScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				025EA6041D42A0A8005D06C1 /* UIImagePickerVIewControllerDemoUITests.m in Sources */,
+				0285F5861D439C3200991FF7 /* ImageScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIImagePickerVIewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZFG.UIImagePickerVIewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIImagePickerVIewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZFG.UIImagePickerVIewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +610,7 @@
 				025EA60A1D42A0A8005D06C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		025EA60B1D42A0A8005D06C1 /* Build configuration list for PBXNativeTarget "UIImagePickerVIewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +619,7 @@
 				025EA60D1D42A0A8005D06C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		025EA60E1D42A0A8005D06C1 /* Build configuration list for PBXNativeTarget "UIImagePickerVIewControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +628,7 @@
 				025EA6101D42A0A8005D06C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

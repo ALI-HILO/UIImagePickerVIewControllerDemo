@@ -10,6 +10,10 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIScrollView *theSCrollView;
+@property (weak, nonatomic) IBOutlet UIButton *addImageBtn;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leftDistance;
+
 @end
 
 @implementation ViewController
@@ -17,11 +21,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)addImageAction:(id)sender {
+    
+    UIImagePickerController *imagePickerCtr = [[UIImagePickerController alloc]init];
+    imagePickerCtr.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    
+    
+    
+    
 }
 
 @end
